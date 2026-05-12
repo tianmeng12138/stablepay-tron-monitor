@@ -42,6 +42,10 @@ Demo mode uses sample data:
 npm run demo
 ```
 
+## Demo screenshot
+
+![StablePay dashboard demo](docs/stablepay-dashboard-demo.png)
+
 ## Docker
 
 ```bash
