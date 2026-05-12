@@ -3,6 +3,8 @@
 A USDT-TRC20 payment monitor starter for freelancers, small merchants, and Web3 teams.
 It watches a public TRON receiving address, displays incoming payments, exposes a JSON API, and can send webhook notifications when a new payment arrives.
 
+Live landing page: https://tianmeng12138.github.io/stablepay-tron-monitor/
+
 ## Why this exists
 
 Many small Web3 businesses accept USDT but still reconcile payments manually in Telegram, spreadsheets, or exchange screenshots. This repo is a compact but production-shaped starting point for:
