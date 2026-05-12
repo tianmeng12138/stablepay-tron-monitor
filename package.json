@@ -1,14 +1,22 @@
 {
   "name": "stablepay-tron-monitor",
-  "version": "0.1.0",
-  "description": "Minimal USDT-TRC20 invoice monitor, dashboard, and webhook service for merchants/freelancers.",
+  "version": "0.2.0",
+  "description": "USDT-TRC20 payment monitor, dashboard, API, and webhook starter for merchants/freelancers.",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "check": "node test/filter.test.js",
-    "demo": "node src/server.js --demo"
+    "demo": "node src/server.js --demo",
+    "syntax": "find src examples test -name \"*.js\" -print0 | xargs -0 -n1 node -c"
   },
-  "keywords": ["usdt", "tron", "trc20", "payments", "webhook", "stablecoin"],
+  "keywords": [
+    "usdt",
+    "tron",
+    "trc20",
+    "payments",
+    "webhook",
+    "stablecoin"
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=16"

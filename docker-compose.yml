@@ -1,0 +1,10 @@
+services:
+  stablepay-tron-monitor:
+    build: .
+    ports:
+      - "8787:8787"
+    environment:
+      TRON_ADDRESS: ${TRON_ADDRESS:-TDemoReceiver1111111111111111111111111}
+      DEMO_MODE: ${DEMO_MODE:-1}
+      POLL_SECONDS: ${POLL_SECONDS:-30}
+      WEBHOOK_URL: ${WEBHOOK_URL:-}
