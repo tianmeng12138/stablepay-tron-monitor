@@ -73,7 +73,7 @@ body{font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe
 
 async function createApp() {
   const demo = process.argv.includes('--demo');
-  const address = env('TRON_ADDRESS', demo ? 'TYLyZAtQvWiF7VRKpodQLU9ayKnXF7BoL8' : '');
+  const address = env('TRON_ADDRESS', demo ? 'TDemoReceiver1111111111111111111111111' : '');
   if (!address) throw new Error('Set TRON_ADDRESS first. See .env.example.');
   const apiKey = env('TRONGRID_API_KEY', '');
   const webhookUrl = env('WEBHOOK_URL', '');
